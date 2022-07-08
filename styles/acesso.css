@@ -15,6 +15,7 @@ form {
   max-width: 26em;
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
   margin: 2em auto;
@@ -32,7 +33,6 @@ form:after {
   left: 0;
   background: linear-gradient(var(--primary), var(--secondary));
 }
-
 
 input {
   width: 100%;

@@ -10,9 +10,6 @@
   <!-- ---------------- estilos compartilhados entre login e signup ---------------- -->
   <link rel="stylesheet" href="styles/acesso.css">
 
-  <!-- ---------------------- lógica aplicada no login ----------------------- -->
-  <script src="/scripts/utils.js"></script>
-  <script src="/scripts/index.js"></script>
 
 </head>
 
@@ -22,27 +19,36 @@
   </div>
 
   <div class="right">
+
     <form>
-      <div class="form-header">
-        <p>To-Do App</p>
+      
+    <div class="form-header">
+        
+      <p>To-Do App</p>
+
       </div>
       <h1>Acessar</h1>
-      <label>
-        Email:
-        <input id="inputEmail" type="email">
-      </label>
-      <label>
-        Senha:
-        <input id="inputPassword" type="password">
-      </label>
-
-      <button type="submit">Acessar</button>
+      
+      <label>Email:</label>
+      <input id="email" type="email">
+      
+      <label>Senha:</label>
+      <input id="password" type="password">
+      
+      <button type="submit" id="loginButton">Acessar</button>
 
     </form>
-    <div class="ingressar">
-      <a href="signup.html">Não possui conta? Crie agora mesmo</a>
-    </div>
+
+       <div class="ingressar">
+           <a href="./pages/signup.html">Não possui conta? Crie agora mesmo</a>
+       </div>
+    
   </div>
+
+    <!-- ---------------------- lógica aplicada no login ----------------------- -->
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/index.js"></script>
+
 
 </body>
 
